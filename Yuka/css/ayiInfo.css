@@ -1,0 +1,175 @@
+.searchClass{
+    width: 100%;
+    margin-top: 30px;
+    height:100px;
+    background: #fff;
+}
+.searchClass form{
+    width: 1200px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 100px;
+    margin:0 auto;
+}
+.searchClass form select{
+    width: 120px;
+    font-size: 20px;
+    border:1px solid #ccc;
+    height:36px;
+    border-radius: 5px;
+}
+.searchClass form select:focus{
+    border:1px solid #3388FF;
+    border-radius: 5px;
+}
+.searchClass form input[name="schbox"]{
+    width: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    height:32px;
+}
+.searchClass form input[name="schbtn"]{
+    width: 100px;
+    font-size: 20px;
+    background: #3388FF;
+    color: #fff;
+    border:0px;
+    border-radius: 5px;
+    height:36px;
+}
+.talent {
+    padding-top:30px;
+    padding-bottom:20px;
+    width: 1200px;
+    margin:0 auto;
+}
+.talent ul::after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.talent ul li {
+    width:280px;
+    background:#FFF;
+    border:1px solid #DFDFDF;
+    height:420px;
+    overflow:hidden;
+    margin-bottom:40px;
+    float:left;
+    margin-right:24px;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;}
+.talent ul li:hover {
+    -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    -webkit-transform: translate3d(0, -3px, 0);
+    transform: translate3d(0, -3px, 0);
+}
+.talent ul li:nth-child(4),
+.talent ul li:nth-child(8),
+.talent ul li:nth-child(12),
+.talent ul li:nth-child(16){
+    margin-right:0px;
+}
+.talent ul li a {
+    display:block;
+    height:100%;
+    color:#666;
+    text-align:center;
+}
+.talent ul li h1 {
+    display:block;
+    width:252px;
+    height:252px;
+    overflow:hidden;
+    margin:0 auto;
+    padding-top:12px;
+    margin-bottom:12px;}
+.talent ul li h1 img {
+    width:100%;
+}
+.talent ul li a span {
+    text-align:left;
+    display:block;
+    font-family:'宋体';
+    font-size:12px;
+    margin:8px 0px
+    ;margin-left:15px;
+}
+.talent ul li:hover a {
+    background:#3388FF;
+    color:#FFF;
+}
+.talent ul li:hover a span {
+    color:#FFF;
+}
+.talent h1.warning{
+    color: red;
+}
+.userids{
+    /*position: relative;*/
+    width: 100%;
+    /*height:2800px;*/
+    /*height:100%;*/
+}
+#userxd{
+    position: absolute;
+    z-index: 99999;
+}
+
+/*阿姨分类筛选*/
+.classfly{
+    width: 100%;
+    margin-top: 20px;
+    background: #fff;
+}
+.classfly ul{
+    width: 1200px;
+    padding:30px;
+    margin:0 auto;
+}
+.classfly ul li{
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    /*line-height: 40px;*/
+    /*height: 40px;*/
+}
+.classfly ul li a{
+    display: inline-block;
+    padding:10px 20px;
+    border-radius: 10px;
+    background: #3388FF;
+    color: #fff;
+}
+.classfly ul li a:hover{
+    background: #ccc;
+    color: red;
+}
+
+/*基本信息*/
+.jibenInfo{
+    width: 1200px;
+    margin:0 auto;
+}
+.jibenInfo .xinxi{
+    width: 50%;
+    margin-left: 20px;
+}
+.immyuyue{
+    display: block;
+    /*padding:10px 20px;*/
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top:50px;
+    border-radius: 5px;
+    background: #3388FF;
+    color: #fff;
+}

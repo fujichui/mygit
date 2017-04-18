@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>家政新闻-优佳家政</title>
+    <link rel="icon" href="images/icon.png" />
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/ndncom.css">
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header_Left floatLeft">
+            <a href="index.html" class="floatLeft">
+                <img src="images/logo.png">
+            </a>
+            <form name="searchForm" action="" method="" class="floatLeft">
+                <input type="text" name="searchBox">
+                <input type="submit" name="searchBtn" value="搜索一下">
+            </form>
+        </div>
+        <div class="header_Right floatRight">
+            <ul>
+                <li><a href="javascript:;" id="login" name="login">登录</a></li>
+                <li><a href="javascript:;" id="register" name="register">注册</a></li>
+                <li><a href="contactUS.html">联系我们</a></li>
+            </ul>
+            <div class="loginModule">
+                <div class="ModuleTitle">
+                    <span>用户登录</span>
+                    <a href="javascript:;" class="close">X</a>
+                </div>
+                <div class="logForm">
+                    <form name="loginForm" action="" method="">
+                        <ul>
+                            <li><h3>用户登录</h3></li>
+                            <li>
+                                <strong>用户名：</strong>
+                                <input type="text" name="username">
+                            </li>
+                            <li>
+                                <strong>密码：</strong>
+                                <input type="password" name="password">
+                            </li>
+                            <li><input type="submit" name="logSubmit" value="登录"></li>
+                            <li><p>未有账号？<a href="javascript:;" class="immeregister">立即注册</a></p></li>
+                        </ul>
+                    </form>
+                </div>
+            </div><!-- loginModule -->
+            <div class="registerModule">
+                <div class="ModuleTitle">
+                    <span>用户注册</span>
+                    <a href="javascript:;" class="close">X</a>
+                </div>
+                <div class="regForm">
+                    <form name="registerForm" action="" method="">
+                        <ul>
+                            <li><h3>用户注册</h3></li>
+                            <li>
+                                <strong>姓名：</strong>
+                                <input type="text" name="username">
+                            </li>
+                            <li>
+                                <strong>昵称：</strong>
+                                <input type="text" name="nickname">
+                            </li>
+                            <li>
+                                <strong>密码：</strong>
+                                <input type="password" name="password">
+                            </li>
+                            <li>
+                                <strong>确认密码：</strong>
+                                <input type="password" name="repwd">
+                            </li>
+                            <li>
+                                <strong>性别：</strong>
+                                <input type="radio" name="usersex" value="man">男
+                                <input type="radio" name="usersex" value="woman">女
+                            </li>
+                            <li>
+                                <strong>年龄：</strong>
+                                <input type="number" name="userage">
+                            </li>
+                            <li>
+                                <strong>手机号码：</strong>
+                                <input type="text" name="usertel">
+                            </li>
+                            <li>
+                                <strong>邮箱：</strong>
+                                <input type="text" name="useremail">
+                            </li>
+                            <li>
+                                <strong>身份证号：</strong>
+                                <input type="number" name="useridentity">
+                            </li>
+                            <li>
+                                <strong>家庭住址：</strong>
+                                <input type="text" name="useraddress">
+                            </li>
+                            <li><input type="submit" name="regSubmit" value="注册"></li>
+                            <li><p>已有账号？<a href="javascript:;" id="immelogin">立即登录</a></p></li>
+                        </ul>
+                    </form>
+                </div>
+            </div><!-- registerModule -->
+            <div class="loginBg"></div>
+        </div><!-- header_Right -->
+        <div class="clearfix"></div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="firul">
+                <li><a href="index.html">首页</a></li>
+                <li class="navfir">
+                    <a href="ntch-n.html">服务项目</a>
+                    <ul class="navsec">
+                        <li><a href="ntch-n.html">育婴师</a></li>
+                        <li><a href="ntch-t.html">老人陪护</a></li>
+                        <li><a href="ntch-c.html">保洁员</a></li>
+                        <li><a href="ntch-h.html">小时工</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="ndnNews.html">新闻中心</a>
+                    <ul class="navsec">
+                        <li><a href="ndnNews.html">国家家政网新闻</a></li>
+                        <li><a href="comDynamic.html">公司动态</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="userInfo.html">客户中心</a>
+                    <ul class="navsec">
+                        <li><a href="userInfo.html">个人中心</a></li>
+                        <li><a href="userInfo.html#fbzp">发布招聘</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="ayiInfo.html">阿姨中心</a>
+                    <ul class="navsec">
+                        <li><a href="ayiInfo.html">阿姨简介</a></li>
+                        <li><a href="ayiBlack.html">阿姨黑名单</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="recruitment.html">诚聘阿姨</a>
+                    <ul class="navsec">
+                        <li><a href="recruitment.html">阿姨招聘</a></li>
+                        <li><a href="applyOnline.html">在线应聘</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="aboutUS.html">关于我们</a>
+                    <ul class="navsec">
+                        <li><a href="aboutUS.html#qywh">企业文化</a></li>
+                        <li><a href="aboutUS.html#fwln">服务理念</a></li>
+                        <li><a href="aboutUS.html#ryzz">荣誉宗旨</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </nav>
+
+    <!-- 新闻中心 -->
+    <section class="news">
+        <!-- <h1>新闻资讯</h1> -->
+        <ul id="tabul">
+            <li class="tabli active">百度</li>
+            <li class="tabli">网易</li>
+            <li class="tabli">腾讯</li>
+            <li class="tabli">搜狐</li>
+            <li class="more"></li>
+            <div class="clearfix"></div>
+        </ul>
+        <div class="clearfix"></div>
+        <div id="tabdiv">
+            <div class="tabcontent active">
+                <p>111百度对外发布2014Q3财报，其2014年Q3营业收入约为135.20亿元人民币，同比增长52.0%。值得关注的是，百度董事长兼首席执行官李彦宏首度对外披露了直达号数据，截至目前，百度直达号已经吸引超过40万家传统商户入驻，覆盖了从生活服务到专业服务的各类商户类型。百度直达号为传统商户拥抱移动互联网打通了全新的途径，向“人与服务”连接方向再迈进一步。 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat saepe et quibusdam quos eum, reprehenderit unde quidem perspiciatis. Tempore sequi nihil nostrum officiis accusamus asperiores est aspernatur eos obcaecati sapiente deleniti tenetur dignissimos quibusdam optio autem, voluptatibus culpa harum dicta veniam porro architecto, ea amet similique, sint reiciendis! Suscipit vel voluptates, ad. Culpa nemo incidunt obcaecati et saepe iusto dolorum non maxime reprehenderit rerum laboriosam eos, placeat necessitatibus ratione quibusdam, fugiat consequatur, eligendi enim deleniti ipsam impedit nam voluptatem odit quasi! Accusantium unde a incidunt illo porro, totam similique. In deserunt quod, eius nam alias ea aliquid odit libero assumenda. At animi ipsa nobis, voluptas minima velit facilis iusto, sit cumque ipsum, iste placeat cum. Neque voluptates placeat ducimus asperiores natus dicta, laborum in vero officia recusandae facere maxime atque quidem perspiciatis, facilis, similique eos reprehenderit, autem quos! Velit commodi quas expedita, suscipit deleniti illo, et. Tempora voluptate nulla in sit animi a, perferendis vero temporibus hic expedita assumenda sint beatae, necessitatibus quia aut dolores architecto quas sed veritatis! Ipsa illum, ipsam atque veritatis ducimus nam aspernatur neque esse id facilis expedita, voluptas iure deserunt porro aliquid quisquam nesciunt, officiis numquam maxime minima sed praesentium obcaecati dolore veniam. Adipisci, dolorum mollitia culpa animi neque dolor molestias et. Saepe optio perspiciatis non, earum eum voluptatum autem! Facilis, iste eaque fugit earum. Aliquam alias blanditiis, repellat id, hic cumque adipisci impedit similique! Repellendus nostrum enim rerum iure cupiditate vitae explicabo autem atque laboriosam, animi quasi, voluptas, dicta quam, odit voluptates quas asperiores? Odit cumque at aliquam consequuntur asperiores accusantium harum odio. Possimus et aliquid fuga hic, inventore dolore accusamus culpa, quaerat dolores consectetur perferendis nisi nobis facere expedita, rem repellat. Deserunt natus optio quis reiciendis possimus esse consequatur ducimus sapiente, doloremque, cum inventore cupiditate facilis rerum sed nihil et eveniet repudiandae reprehenderit eius. Soluta voluptas quaerat voluptate, reiciendis minima consequuntur ad a quia, deleniti amet numquam odit praesentium laboriosam tempora fugiat eius sit iure. Impedit ipsa ad fuga dolorem non officia vero reprehenderit quisquam nobis corrupti vitae ducimus asperiores repellendus amet rem, atque nam pariatur, natus velit deserunt. Cupiditate tempora ducimus enim et saepe cumque, neque expedita. Est voluptas explicabo dignissimos magni aspernatur ducimus aliquam deserunt cum! Ab explicabo corporis soluta odit sed nisi qui consequatur ex earum minus quidem temporibus vitae nemo, accusamus dolores sapiente eaque? Consequatur inventore quo, officia debitis facere qui doloremque hic harum modi asperiores. Similique facere praesentium saepe amet ullam laborum, eveniet earum culpa, voluptates, natus dolore voluptatibus modi incidunt iure magnam quas inventore voluptate obcaecati sed quasi. Quod magnam at atque perspiciatis esse distinctio sequi, sit nesciunt facilis a sapiente expedita fuga ducimus cum itaque, vitae culpa, beatae hic? Maiores ad nam enim aut reiciendis modi odit sit obcaecati, molestiae soluta. Aliquam assumenda architecto quos tenetur accusantium provident molestias labore! Quae quo quia expedita amet quas, blanditiis odit dicta vitae. Quasi quae sed, asperiores illo rerum incidunt voluptatem, architecto excepturi eveniet placeat, provident illum id velit inventore odit labore a eos cupiditate enim praesentium, non recusandae est ducimus dolorum. Eligendi incidunt hic ratione deserunt quos, harum quia sint sed amet nesciunt esse officiis, libero recusandae corporis nisi temporibus ut dolor vero, illo ea fugit. Fugiat unde temporibus eaque non consequuntur id sunt possimus expedita, deleniti aliquid praesentium, facere suscipit eos perferendis voluptatum est! Molestiae sapiente corrupti quis numquam! Soluta modi eos qui distinctio dolores, debitis quam itaque ducimus impedit ad cupiditate iste repudiandae cumque assumenda ipsum voluptatem ex quaerat laborum. Similique voluptate corporis id ipsam molestiae, tempore fuga distinctio autem, cum recusandae nisi eaque fugiat, nostrum doloremque ut nemo maxime ducimus ratione fugit sapiente quo eum. Unde recusandae pariatur asperiores cupiditate at voluptatum nesciunt, tempore odit quisquam eveniet mollitia consequatur, distinctio animi omnis sequi qui fuga ea quibusdam, dolores vero vitae. Sunt esse, ducimus asperiores voluptate possimus, cupiditate labore, dignissimos iure quaerat magni autem officiis. Quas dolore excepturi illum cupiditate eum soluta pariatur reprehenderit distinctio! Dolor dolores, pariatur porro fuga dicta temporibus sapiente odit explicabo iusto dolore similique eum omnis aperiam, ratione delectus illum. Eum, enim eveniet unde alias, asperiores perferendis iste id cum qui incidunt sit ex quas doloribus. Saepe laborum, maxime distinctio cum doloremque odioesciunt ipsa praesentium fuga a molestiae eius cumque beatae velit perspiciatis. Sint harum optio culpa, debitis. am eveniet maiores perferendis ratione illum facilis! Dolore id officiis, minima im dolore voluptatem, cupiditate, excepturi numquam adipisci! Dolores quia, aperiam quidem sunt similique blanditiis, repellendus iure.</p>
+            </div>
+            <div class="tabcontent">
+                <p>222导语：科技行业永远不乏奇迹与瞬变，也不乏后来者永远在路上。有谁能够保证，刚刚稳定下来的BAT争霸格局，不会被那些现在看上去只有几十人的创业小公司冲破？巨头林立之下，新一轮的创业大潮正在兴起，它们能否突围，成就自己的“小时代”？2014年互联网大会，凤凰科技推出《寻找巨头之外的小时代》特别策划，特邀请华兴资本、梧桐树资本、起源资本以及行业专家共同点评那些还在路上的创业公司。</p>
+            </div>
+            <div class="tabcontent">
+                <p>3333 8月5日，国内家政服务预订平台——“云家政”首次正式发布沪广深家政行业数据报告：三地家政市场普存供需缺口；广州市民请月嫂的成本最高，深圳最便宜；老人护理深圳最贵，广州最便宜。
+                根据三地政府相关报告及云家政调研数据，广东省目前有1.6万家家政企业，从业人员数达到332万，而广州市经工商登记的家庭服!</p>
+            </div>
+            <div class="tabcontent">
+                <p>导语： 如果用一句网络上的笑话来形容云家政创始人薛帅的创业经历那就是：炒股炒成股东，炒房炒成房东，泡妞泡成老公。在一次失败的寻找家政人员经历过后，薛帅决定挽起袖子，自己干一家家政公司。
+                在一次失败的寻找家政人员经历过后，薛帅决定挽起袖子，自己干一家家政公司。这家不大的家政公司最终成为了云家政的前身。</p>
+            </div>
+        <!-- <div class="clearfix"></div> -->
+        </div>
+    </section>
+
+    <footer>
+        <p>欢迎来到优佳家政服务平台</p>
+    </footer>
+    <a href="javascript:;" id="rep">举报</a>
+    <div class="reportModule">
+        <div class="ModuleTitle">
+            <span>用户举报</span>
+            <a href="javascript:;" class="close">X</a>
+        </div>
+        <div class="repForm">
+            <form name="repForm" action="" method="">
+                <ul>
+                    <li><h3>用户举报</h3></li>
+                    <li><p>若是一般问题，请直接在“联系我们”中直接反馈，请慎重举报！</p></li>
+                    <li>
+                        <strong>用户名：</strong>
+                        <input type="text" name="username">
+                    </li>
+                    <li>
+                        <strong>阿姨姓名：</strong>
+                        <input type="text" name="ayiname">
+                    </li>
+                    <li>
+                        <strong>举报原因：</strong>
+                        <textarea name="userjbyy" cols="23" rows="5"></textarea>
+                    </li>
+                    <li><input type="submit" name="repSubmit" value="提交"></li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/public.js"></script>
+    <script type="text/javascript" src="./js/carousel.js"></script>
+</body>
+</html>

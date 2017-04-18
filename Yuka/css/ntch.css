@@ -1,0 +1,97 @@
+/*ntchConleft*/
+.ntchConleft{
+    width: 200px;
+    background: rgba(51,136,255,0.6);
+    float: left;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.ntchConleft ul li.active{
+    opacity: 1;
+    border-radius: 10px;
+    background: rgba(51,136,255,0.7);
+    color:#fff;
+}
+.ntchConleft ul li a{
+    display: block;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.ntchConright{
+    width: 990px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.ntchConright .ncrtop img{
+    position: relative;
+    border:1px solid #3388FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height:300px;
+    width: 990px;
+    opacity: 0.8;
+    max-width: 100%;
+    -webkit-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
+}
+.ntchConright .ncrtop:hover img{
+    opacity: 1;
+}
+.ntchConright .ncrtab .ncrcenter .ncrctop span{
+    margin-top: 30px;
+}
+.ntchConright .ncrtab .ncrcenter .ncrcbottom{
+    width:1000px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.ntchConright .ncrtab .ncrcenter ul.ncrcbottom li{
+    height:200px;
+    float: left;
+}
+.ntchConright ul.ncrbottom > li{
+    float: left;
+    background: #fff;
+    border-radius: 10px;
+    border:1px solid #3388FF;
+    margin-top: 10px;
+    padding:5px;
+    box-sizing: border-box;
+    width:490px;
+}
+.ntchConright ul.ncrbottom > li img{
+    border-radius: 10px;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
+}
+.ntchConright ul.ncrbottom > li img:hover{
+    border-radius: 10px;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.ntchConright ul.ncrbottom > li:nth-of-type(odd){
+    margin-right: 10px;
+}
+.ntchConright ul.ncrbottom > li ol.ncrInfo{
+    float: left;
+    width: 200px;
+}

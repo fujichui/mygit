@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>公司动态-优佳家政</title>
+    <link rel="icon" href="images/icon.png" />
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/ndncom.css">
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header_Left floatLeft">
+            <a href="index.html" class="floatLeft">
+                <img src="images/logo.png">
+            </a>
+            <form name="searchForm" action="" method="" class="floatLeft">
+                <input type="text" name="searchBox">
+                <input type="submit" name="searchBtn" value="搜索一下">
+            </form>
+        </div>
+        <div class="header_Right floatRight">
+            <ul>
+                <li><a href="javascript:;" id="login" name="login">登录</a></li>
+                <li><a href="javascript:;" id="register" name="register">注册</a></li>
+                <li><a href="contactUS.html">联系我们</a></li>
+            </ul>
+            <div class="loginModule">
+                <div class="ModuleTitle">
+                    <span>用户登录</span>
+                    <a href="javascript:;" class="close">X</a>
+                </div>
+                <div class="logForm">
+                    <form name="loginForm" action="" method="">
+                        <ul>
+                            <li><h3>用户登录</h3></li>
+                            <li>
+                                <strong>用户名：</strong>
+                                <input type="text" name="username">
+                            </li>
+                            <li>
+                                <strong>密码：</strong>
+                                <input type="password" name="password">
+                            </li>
+                            <li><input type="submit" name="logSubmit" value="登录"></li>
+                            <li><p>未有账号？<a href="javascript:;" class="immeregister">立即注册</a></p></li>
+                        </ul>
+                    </form>
+                </div>
+            </div><!-- loginModule -->
+            <div class="registerModule">
+                <div class="ModuleTitle">
+                    <span>用户注册</span>
+                    <a href="javascript:;" class="close">X</a>
+                </div>
+                <div class="regForm">
+                    <form name="registerForm" action="" method="">
+                        <ul>
+                            <li><h3>用户注册</h3></li>
+                            <li>
+                                <strong>姓名：</strong>
+                                <input type="text" name="username">
+                            </li>
+                            <li>
+                                <strong>昵称：</strong>
+                                <input type="text" name="nickname">
+                            </li>
+                            <li>
+                                <strong>密码：</strong>
+                                <input type="password" name="password">
+                            </li>
+                            <li>
+                                <strong>确认密码：</strong>
+                                <input type="password" name="repwd">
+                            </li>
+                            <li>
+                                <strong>性别：</strong>
+                                <input type="radio" name="usersex" value="man">男
+                                <input type="radio" name="usersex" value="woman">女
+                            </li>
+                            <li>
+                                <strong>年龄：</strong>
+                                <input type="number" name="userage">
+                            </li>
+                            <li>
+                                <strong>手机号码：</strong>
+                                <input type="text" name="usertel">
+                            </li>
+                            <li>
+                                <strong>邮箱：</strong>
+                                <input type="text" name="useremail">
+                            </li>
+                            <li>
+                                <strong>身份证号：</strong>
+                                <input type="number" name="useridentity">
+                            </li>
+                            <li>
+                                <strong>家庭住址：</strong>
+                                <input type="text" name="useraddress">
+                            </li>
+                            <li><input type="submit" name="regSubmit" value="注册"></li>
+                            <li><p>已有账号？<a href="javascript:;" id="immelogin">立即登录</a></p></li>
+                        </ul>
+                    </form>
+                </div>
+            </div><!-- registerModule -->
+            <div class="loginBg"></div>
+        </div><!-- header_Right -->
+        <div class="clearfix"></div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="firul">
+                <li><a href="index.html">首页</a></li>
+                <li class="navfir">
+                    <a href="ntch-n.html">服务项目</a>
+                    <ul class="navsec">
+                        <li><a href="ntch-n.html">育婴师</a></li>
+                        <li><a href="ntch-t.html">老人陪护</a></li>
+                        <li><a href="ntch-c.html">保洁员</a></li>
+                        <li><a href="ntch-h.html">小时工</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="ndnNews.html">新闻中心</a>
+                    <ul class="navsec">
+                        <li><a href="ndnNews.html">国家家政网新闻</a></li>
+                        <li><a href="comDynamic.html">公司动态</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="userInfo.html">客户中心</a>
+                    <ul class="navsec">
+                        <li><a href="userInfo.html">个人中心</a></li>
+                        <li><a href="userInfo.html#fbzp">发布招聘</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="ayiInfo.html">阿姨中心</a>
+                    <ul class="navsec">
+                        <li><a href="ayiInfo.html">阿姨简介</a></li>
+                        <li><a href="ayiBlack.html">阿姨黑名单</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="recruitment.html">诚聘阿姨</a>
+                    <ul class="navsec">
+                        <li><a href="recruitment.html">阿姨招聘</a></li>
+                        <li><a href="applyOnline.html">在线应聘</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="aboutUS.html">关于我们</a>
+                    <ul class="navsec">
+                        <li><a href="aboutUS.html#qywh">企业文化</a></li>
+                        <li><a href="aboutUS.html#fwln">服务理念</a></li>
+                        <li><a href="aboutUS.html#ryzz">荣誉宗旨</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </nav>
+
+    <!-- 新闻中心 -->
+    <section class="dynamic">
+        <h1>公司动态</h1>
+        <table>
+            <tr>
+                <td class="tdfir">序号</td>
+                <td class="tdsec">标题</td>
+                <td class="tdthr">添加时间</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><a href="">2017年春节放假公告</a></td>
+                <td>2017-01-26 08:10:29</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="">优佳家政公司全新O2O平台-优佳家政上线</a></td>
+                <td>2016-10-13 10:20:55</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="">优佳家政:以“向上的力量”为核心 推动服务质量提升</a></td>
+                <td>2016-01-28 14:28:11</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="">公司官方微博正式开通，更多活动更多优惠。</a></td>
+                <td>2015-04-13 11:08:35</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="">一封来自北京客户的表扬信</a></td>
+                <td>2014-12-26 09:58:00</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="dynamic">
+        <h1>媒体报道</h1>
+        <table>
+            <tr>
+                <td class="tdfir">序号</td>
+                <td class="tdsec">标题</td>
+                <td class="tdthr">添加时间</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><a href="">2017年春节放假公告</a></td>
+                <td>2017-01-26 08:10:29</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="">优佳家政公司全新O2O平台-优佳家政上线</a></td>
+                <td>2016-10-13 10:20:55</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="">优佳家政:以“向上的力量”为核心 推动服务质量提升</a></td>
+                <td>2016-01-28 14:28:11</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="">公司官方微博正式开通，更多活动更多优惠。</a></td>
+                <td>2015-04-13 11:08:35</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="">一封来自北京客户的表扬信</a></td>
+                <td>2014-12-26 09:58:00</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="dynamic">
+        <h1>家政常识</h1>
+        <table>
+            <tr>
+                <td class="tdfir">序号</td>
+                <td class="tdsec">标题</td>
+                <td class="tdthr">添加时间</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><a href="">2017年春节放假公告</a></td>
+                <td>2017-01-26 08:10:29</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="">优佳家政公司全新O2O平台-优佳家政上线</a></td>
+                <td>2016-10-13 10:20:55</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="">优佳家政:以“向上的力量”为核心 推动服务质量提升</a></td>
+                <td>2016-01-28 14:28:11</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="">公司官方微博正式开通，更多活动更多优惠。</a></td>
+                <td>2015-04-13 11:08:35</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="">一封来自北京客户的表扬信</a></td>
+                <td>2014-12-26 09:58:00</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>欢迎来到优佳家政服务平台</p>
+    </footer>
+    <a href="javascript:;" id="rep">举报</a>
+    <div class="reportModule">
+        <div class="ModuleTitle">
+            <span>用户举报</span>
+            <a href="javascript:;" class="close">X</a>
+        </div>
+        <div class="repForm">
+            <form name="repForm" action="" method="">
+                <ul>
+                    <li><h3>用户举报</h3></li>
+                    <li><p>若是一般问题，请直接在“联系我们”中直接反馈，请慎重举报！</p></li>
+                    <li>
+                        <strong>用户名：</strong>
+                        <input type="text" name="username">
+                    </li>
+                    <li>
+                        <strong>阿姨姓名：</strong>
+                        <input type="text" name="ayiname">
+                    </li>
+                    <li>
+                        <strong>举报原因：</strong>
+                        <textarea name="userjbyy" cols="23" rows="5"></textarea>
+                    </li>
+                    <li><input type="submit" name="repSubmit" value="提交"></li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/public.js"></script>
+    <script type="text/javascript" src="./js/carousel.js"></script>
+</body>
+</html>

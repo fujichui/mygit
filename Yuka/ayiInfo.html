@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>阿姨简介-优佳家政</title>
+    <link rel="icon" href="images/icon.png" />
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/ayiInfo.css">
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header_Left floatLeft">
+            <a href="index.html" class="floatLeft">
+                <img src="images/logo.png">
+            </a>
+            <form name="searchForm" action="" method="" class="floatLeft">
+                <input type="text" name="searchBox">
+                <input type="submit" name="searchBtn" value="搜索一下">
+            </form>
+        </div>
+        <div class="header_Right floatRight">
+            <ul>
+                <li><a href="javascript:;" id="login" name="login">登录</a></li>
+                <li><a href="javascript:;" id="register" name="register">注册</a></li>
+                <li><a href="contactUS.html">联系我们</a></li>
+            </ul>
+            <div class="loginModule">
+                <div class="ModuleTitle">
+                    <span>用户登录</span>
+                    <a href="javascript:;" class="close">X</a>
+                </div>
+                <div class="logForm">
+                    <form name="loginForm" action="" method="">
+                        <ul>
+                            <li><h3>用户登录</h3></li>
+                            <li>
+                                <strong>用户名：</strong>
+                                <input type="text" name="username">
+                            </li>
+                            <li>
+                                <strong>密码：</strong>
+                                <input type="password" name="password">
+                            </li>
+                            <li><input type="submit" name="logSubmit" value="登录"></li>
+                            <li><p>未有账号？<a href="javascript:;" class="immeregister">立即注册</a></p></li>
+                        </ul>
+                    </form>
+                </div>
+            </div><!-- loginModule -->
+            <div class="registerModule">
+                <div class="ModuleTitle">
+                    <span>用户注册</span>
+                    <a href="javascript:;" class="close">X</a>
+                </div>
+                <div class="regForm">
+                    <form name="registerForm" action="" method="">
+                        <ul>
+                            <li><h3>用户注册</h3></li>
+                            <li>
+                                <strong>姓名：</strong>
+                                <input type="text" name="username" placeholder="请输入您的真实姓名">
+                                <span><img src="images/right.png"></span>
+                                <i><img src="images/wrong.png"></i>
+                            </li>
+                            <li>
+                                <strong>密码：</strong>
+                                <input type="password" name="password" placeholder="6-12位密码(数字字母下划线)">
+                                <span><img src="images/right.png"></span>
+                                <i><img src="images/wrong.png"></i>
+                            </li>
+                            <li>
+                                <strong>确认密码：</strong>
+                                <input type="password" name="repwd" placeholder="请确认密码">
+                                <span><img src="images/right.png"></span>
+                                <i><img src="images/wrong.png"></i>
+                            </li>
+                            <li>
+                                <strong>性别：</strong>
+                                <input type="radio" name="usersex" value="man">男
+                                <input type="radio" name="usersex" value="woman">女
+                            </li>
+                            <li>
+                                <strong>年龄：</strong>
+                                <input type="number" name="age" placeholder="请输入年龄">
+                                <span><img src="images/right.png"></span>
+                                <i><img src="images/wrong.png"></i>
+                            </li>
+                            <li>
+                                <strong>手机号码：</strong>
+                                <input type="text" name="telephone" placeholder="请输入您的11位手机号">
+                                <span><img src="images/right.png"></span>
+                                <i><img src="images/wrong.png"></i>
+                            </li>
+                            <li>
+                                <strong>邮箱：</strong>
+                                <input type="text" name="email" placeholder="请输入您的邮箱">
+                                <span><img src="images/right.png"></span>
+                                <i><img src="images/wrong.png"></i>
+                            </li>
+                            <li>
+                                <strong>身份证号：</strong>
+                                <input type="number" name="cardid" placeholder="请输入您的身份证号">
+                                <span><img src="images/right.png"></span>
+                                <i><img src="images/wrong.png"></i>
+                            </li>
+                            <li>
+                                <strong>家庭住址：</strong>
+                                <input type="text" name="useraddress" placeholder="请输入您的家庭住址">
+                                <span><img src="images/right.png"></span>
+                                <i><img src="images/wrong.png"></i>
+                            </li>
+                            <li><input type="submit" name="regSubmit" value="注册"></li>
+                            <li><p>已有账号？<a href="javascript:;" id="immelogin">立即登录</a></p></li>
+                        </ul>
+                    </form>
+                </div>
+            </div><!-- registerModule -->
+            <div class="loginBg"></div>
+        </div><!-- header_Right -->
+        <div class="clearfix"></div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="firul">
+                <li><a href="index.html">首页</a></li>
+                <li class="navfir">
+                    <a href="ntch-n.html">服务项目</a>
+                    <ul class="navsec">
+                        <li><a href="ntch-n.html">育婴师</a></li>
+                        <li><a href="ntch-t.html">老人陪护</a></li>
+                        <li><a href="ntch-c.html">保洁员</a></li>
+                        <li><a href="ntch-h.html">小时工</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="ndnNews.html">新闻中心</a>
+                    <ul class="navsec">
+                        <li><a href="ndnNews.html">国家家政网新闻</a></li>
+                        <li><a href="comDynamic.html">公司动态</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="userInfo.html">客户中心</a>
+                    <ul class="navsec">
+                        <li><a href="userInfo.html">个人中心</a></li>
+                        <li><a href="userInfo.html#fbzp">发布招聘</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="ayiInfo.html">阿姨中心</a>
+                    <ul class="navsec">
+                        <li><a href="ayiInfo.html">阿姨简介</a></li>
+                        <li><a href="ayiBlack.html">阿姨黑名单</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="recruitment.html">诚聘阿姨</a>
+                    <ul class="navsec">
+                        <li><a href="recruitment.html">阿姨招聘</a></li>
+                        <li><a href="applyOnline.html">在线应聘</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="aboutUS.html">关于我们</a>
+                    <ul class="navsec">
+                        <li><a href="aboutUS.html#qywh">企业文化</a></li>
+                        <li><a href="aboutUS.html#fwln">服务理念</a></li>
+                        <li><a href="aboutUS.html#ryzz">荣誉宗旨</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </nav>
+
+
+    <section class="classfly">
+        <ul>
+            <li><a href="">全部</a></li>
+            <li><a href="">精品住家保姆</a></li>
+            <li><a href="">高级育婴师</a></li>
+            <li><a href="">金牌月嫂</a></li>
+            <li><a href="">儿童家教</a></li>
+            <li><a href="">高端家庭管家</a></li>
+            <li><a href="">家庭司机</a></li>
+            <li><a href="">专业老人护理</a></li>
+            <li><a href="">高端涉外家政</a></li>
+            <li><a href="">早出晚归</a></li>
+            <div class="clearfix"></div>
+        </ul>
+    </section>
+
+
+    <div class="searchClass">
+        <form>
+            <span>类别:</span>
+            <select name="cclassic">
+                <option value="不限" selected="selected">不限</option>
+                <option value="育婴师">育婴师</option>
+                <option value="老人陪护">老人陪护</option>
+                <option value="保洁员">保洁员</option>
+                <option value="小时工">小时工</option>
+            </select>
+            <span>年龄:</span>
+            <select name="aage">
+                <option value="18-60" selected="selected">不限</option>
+                <option value="30-35">30-35岁</option>
+                <option value="36-40">36-40岁</option>
+                <option value="41-45">41-45岁</option>
+                <option value="46-50">46-50岁</option>
+                <option value="51-55">51-55岁</option>
+            </select>
+            <span>户籍:</span>
+            <select name="hhuji">
+                <option value="" selected="selected">不限</option>
+                <option value="北京">北京</option>
+                <option value="上海">上海</option>
+                <option value="天津">天津</option>
+                <option value="重庆">重庆</option>
+                <option value="河北">河北</option>
+                <option value="山西">山西</option>
+                <option value="内蒙古">内蒙古</option>
+                <option value="辽宁">辽宁</option>
+                <option value="吉林">吉林</option>
+                <option value="黑龙江">黑龙江</option>
+                <option value="江苏">江苏</option>
+                <option value="浙江">浙江</option>
+                <option value="安徽">安徽</option>
+                <option value="福建">福建</option>
+                <option value="江西">江西</option>
+                <option value="山东">山东</option>
+                <option value="河南">河南</option>
+                <option value="湖北">湖北</option>
+                <option value="湖南">湖南</option>
+                <option value="广东">广东</option>
+                <option value="广西">广西</option>
+                <option value="海南">海南</option>
+                <option value="四川">四川</option>
+                <option value="贵州">贵州</option>
+                <option value="云南">云南</option>
+                <option value="西藏">西藏</option>
+                <option value="陕西">陕西</option>
+                <option value="甘肃">甘肃</option>
+                <option value="宁夏">宁夏</option>
+                <option value="青海">青海</option>
+                <option value="新疆">新疆</option>
+                <option value="香港">香港</option>
+                <option value="澳门">澳门</option>
+                <option value="台湾">台湾</option>
+            </select>
+            <input type="text" name="schbox" placeholder="请输入关键字">
+            <input type="submit" name="schbtn" value="搜索">
+        </form>
+    </div>
+
+    <section class="talent">
+        <ul>
+            <li>
+                <a href="detailInfo.html">
+                    <h1><img src="images/talent01.jpg"></h1>
+                    <span>项目：育婴师</span>
+                    <span>姓名：姜艳</span>
+                    <span>年龄：1987-10-01</span>
+                    <span>工作经验：2 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h1><img src="images/talent02.jpg"></h1>
+                    <span>项目：育婴师</span>
+                    <span>姓名：彭青青</span>
+                    <span>年龄：1987-01-06</span>
+                    <span>工作经验：3 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h1><img src="images/talent03.jpg"></h1>
+                    <span>项目：育婴师</span>
+                    <span>姓名：万晓</span>
+                    <span>年龄：1986-01-12</span>
+                    <span>工作经验：4 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h1><img src="images/talent04.jpg"></h1>
+                    <span>项目：育婴师</span>
+                    <span>姓名：刘怡然</span>
+                    <span>年龄：1974-09-19</span>
+                    <span>工作经验：5 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h1><img src="images/talent05.jpg"></h1>
+                    <span>项目：育婴师</span>
+                    <span>姓名：俞小燕</span>
+                    <span>年龄：1972-07-07</span>
+                    <span>工作经验：4 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h1><img src="images/talent06.jpg"></h1>
+                    <span>项目：育婴师</span>
+                    <span>姓名：丁允如</span>
+                    <span>年龄：1965-07-23</span>
+                    <span>工作经验：8 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h1><img src="images/talent07.jpg"></h1>
+                    <span>项目：育婴师</span>
+                    <span>姓名：杨雪</span>
+                    <span>年龄：1984-10-07</span>
+                    <span>工作经验：1 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h1><img src="images/talent08.jpg"></h1>
+                    <span>项目：育婴师</span>
+                    <span>姓名：田雪红</span>
+                    <span>年龄：1974-12-12</span>
+                    <span>工作经验：0 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h1><img src="images/talent09.jpg"></h1>
+                    <span>项目：小时工</span>
+                    <span>姓名：刘秀玲</span>
+                    <span>年龄：1974-09-14</span>
+                    <span>工作经验：2 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h1><img src="images/talent10.jpg"></h1>
+                    <span>项目：小时工</span>
+                    <span>姓名：李早平</span>
+                    <span>年龄：1975-07-25</span>
+                    <span>工作经验：2 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h1><img src="images/talent11.jpg"></h1>
+                    <span>项目：小时工</span>
+                    <span>姓名：贺洪青</span>
+                    <span>年龄：1983-09-10</span>
+                    <span>工作经验：2 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h1><img src="images/talent12.jpg"></h1>
+                    <span>项目：育婴师</span>
+                    <span>姓名：王稳南</span>
+                    <span>年龄：1973-12-18</span>
+                    <span>工作经验：10 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h1><img src="images/talent13.jpg"></h1>
+                    <span>项目：老人陪护</span>
+                    <span>姓名：顾晓青</span>
+                    <span>年龄：1969-10-08</span>
+                    <span>工作经验：3 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h1><img src="images/talent14.jpg"></h1>
+                    <span>项目：老人陪护</span>
+                    <span>姓名：周瑞敏</span>
+                    <span>年龄：1980-02-07</span>
+                    <span>工作经验：2 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h1><img src="images/talent15.jpg"></h1>
+                    <span>项目：育婴师</span>
+                    <span>姓名：张秀</span>
+                    <span>年龄：1967-05-16</span>
+                    <span>工作经验：7 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h1><img src="images/talent16.jpg"></h1>
+                    <span>项目：育婴师</span>
+                    <span>姓名：高媛</span>
+                    <span>年龄：1978-11-17</span>
+                    <span>工作经验：8 年</span>
+                    <span>点赞</span>
+                    <span>是否在职：是（2017.03.20-2017.05.20）</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>欢迎来到优佳家政服务平台</p>
+    </footer>
+
+    <!-- 动态显示下单框 -->
+    <!-- <div class="userids">
+        <div id="userxd">
+            <a href="#" target="_blank"><img src="images/xd.png" border="0"  style="cursor: pointer;" style="cursor: pointer;" /></a>
+            <script type="text/javascript" src="js/11.js"></script>
+        </div>
+    </div> -->
+    <a href="javascript:;" id="rep">举报</a>
+    <div class="reportModule">
+        <div class="ModuleTitle">
+            <span>用户举报</span>
+            <a href="javascript:;" class="close">X</a>
+        </div>
+        <div class="repForm">
+            <form name="repForm" action="" method="">
+                <ul>
+                    <li><h3>用户举报</h3></li>
+                    <li><p>若是一般问题，请直接在“联系我们”中直接反馈，请慎重举报！</p></li>
+                    <li>
+                        <strong>用户名：</strong>
+                        <input type="text" name="username">
+                    </li>
+                    <li>
+                        <strong>阿姨姓名：</strong>
+                        <input type="text" name="ayiname">
+                    </li>
+                    <li>
+                        <strong>举报原因：</strong>
+                        <textarea name="userjbyy" cols="23" rows="5"></textarea>
+                    </li>
+                    <li><input type="submit" name="repSubmit" value="提交"></li>
+                </ul>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./js/public.js"></script>
+    <script type="text/javascript" src="./js/carousel.js"></script>
+</body>
+</html>

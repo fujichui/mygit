@@ -1,0 +1,185 @@
+
+/*carousel*/
+.carousel{
+    margin-top: 10px;
+    width:1200px;
+    height:366px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.carousel .carouselImg{
+    padding:0;
+    width:6000px;
+    height:366px;
+    position: absolute;
+    left:0;
+}
+.carouselImg li{
+    float: left;
+}
+.carousel .carouselImg img{
+    width: 1200px;
+    height: 364px;
+}
+.carousel a.aLR{
+    display: none;
+    width:28px;
+    height:62px;
+    position: absolute;
+    top:50%;
+    margin-top: -31px;
+    background:rgba(0,0,0,0.2);
+    color:#FFF;
+    text-align: center;
+    font-size: 28px;
+    line-height: 62px;
+}
+.carousel:hover a.aLR{
+    display: block;
+}
+a.aLR:hover{
+    color:#FFFFFF;
+    background:rgba(0,0,0,0.7);
+}
+.carousel a#carouselPrev{
+    left: 0px;
+}
+.carousel a#carouselNext{
+    right:0px;
+}
+
+/*news*/
+.contentLeft{
+    float: left;
+    width: 850px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.news{
+    width: 850px;
+    height: 350px;
+    border-radius: 5px;
+    background: #FFF;
+    box-sizing: border-box;
+}
+
+.news #tabul{
+    float: left;
+    background: #f6f6f6;
+    border-bottom: 1px solid #3388FF;
+}
+.news #tabul li{
+    float: left;
+    text-align: center;
+    width: 100px;
+    height:35px;
+    border-radius: 5px 5px 0px 0px;
+    cursor: pointer;
+    line-height: 35px;
+}
+.news #tabul li.tabli.active{
+    background: #fff;
+    height:35px;
+    position: relative;
+    bottom: -1px;
+    z-index: 222;
+    color: #3388FF;
+    border-bottom: 1px solid #fff;
+}
+.news #tabul li.more{
+    width:440px;
+    text-align: right;
+    padding-right: 10px;
+}
+.news #tabul li.more a{
+    color: #ccc;
+}
+.news .tabcontent{
+    padding:5px;
+}
+#tabdiv div.tabcontent{
+    display: none;
+}
+#tabdiv div.active{
+    display: block;
+}
+
+/*dustmans*/
+.dustmans{
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+.dustmans .ku{
+    border-bottom: 1px solid #3388FF;
+}
+.dustmans .ku h2{
+    float: left;
+    margin:10px;
+}
+.dustmans .ku a{
+    float: right;
+    vertical-align: middle;
+    margin-right:10px;
+    padding-top: 18px;
+    color: #ccc;
+}
+.dustmans .ayi{
+    float: left;
+    margin-top: 10px;
+}
+.dustmans .ayi ul li{
+    float: left;
+    margin-left:10px;
+}
+
+/*customers*/
+.customers{
+    float: left;
+}
+/* .customers .customersTop{
+    margin-top: 10px;
+    border-bottom: 1px dashed #3388FF;
+} */
+/* .customers .customersTop, */.customers .customersBottom{
+    margin-top: 10px;
+    width: 340px;
+    background: #FFF;
+}
+/* .customers .customersTop form{
+    width: 300px;
+    color: #666;
+    font: 16px bold '微软雅黑';
+    margin:0 auto;
+}
+.customers .customersTop tr{
+    height:24px;
+    line-height: 24px;
+}
+.customers .customersTop .subBtn{
+    padding:5px 10px;
+    font-size: 16px;
+    margin-bottom: 13px;
+    background-color: #3388FF;
+    color: #fff;
+    cursor: pointer;
+    border:0px;
+} */
+/*表单验证*/
+.judge{
+    display: none;
+}
+.judge img{
+    vertical-align: middle;
+}
+
+.customers .customersBottom h2{
+    margin-top: 0px;
+    padding-top:10px;
+    text-align: center;
+}
+.customers .customersBottom ol{
+    padding-bottom: 10px;
+    color: #555;
+}

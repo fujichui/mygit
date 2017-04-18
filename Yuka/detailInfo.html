@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>阿姨简介-优佳家政</title>
+    <link rel="icon" href="images/icon.png" />
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/ayiInfo.css">
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header_Left floatLeft">
+            <a href="index.html" class="floatLeft">
+                <img src="images/logo.png">
+            </a>
+            <form name="searchForm" action="" method="" class="floatLeft">
+                <input type="text" name="searchBox">
+                <input type="submit" name="searchBtn" value="搜索一下">
+            </form>
+        </div>
+        <div class="header_Right floatRight">
+            <ul>
+                <li><a href="javascript:;" id="login" name="login">登录</a></li>
+                <li><a href="javascript:;" id="register" name="register">注册</a></li>
+                <li><a href="contactUS.html">联系我们</a></li>
+            </ul>
+            <div class="loginModule">
+                <div class="ModuleTitle">
+                    <span>用户登录</span>
+                    <a href="javascript:;" class="close">X</a>
+                </div>
+                <div class="logForm">
+                    <form name="loginForm" action="" method="">
+                        <ul>
+                            <li><h3>用户登录</h3></li>
+                            <li>
+                                <strong>用户名：</strong>
+                                <input type="text" name="username">
+                            </li>
+                            <li>
+                                <strong>密码：</strong>
+                                <input type="password" name="password">
+                            </li>
+                            <li><input type="submit" name="logSubmit" value="登录"></li>
+                            <li><p>未有账号？<a href="javascript:;" class="immeregister">立即注册</a></p></li>
+                        </ul>
+                    </form>
+                </div>
+            </div><!-- loginModule -->
+            <div class="registerModule">
+                <div class="ModuleTitle">
+                    <span>用户注册</span>
+                    <a href="javascript:;" class="close">X</a>
+                </div>
+                <div class="regForm">
+                    <form name="registerForm" action="" method="">
+                        <ul>
+                            <li><h3>用户注册</h3></li>
+                            <li>
+                                <strong>姓名：</strong>
+                                <input type="text" name="username">
+                            </li>
+                            <li>
+                                <strong>昵称：</strong>
+                                <input type="text" name="nickname">
+                            </li>
+                            <li>
+                                <strong>密码：</strong>
+                                <input type="password" name="password">
+                            </li>
+                            <li>
+                                <strong>确认密码：</strong>
+                                <input type="password" name="repwd">
+                            </li>
+                            <li>
+                                <strong>性别：</strong>
+                                <input type="radio" name="usersex" value="man">男
+                                <input type="radio" name="usersex" value="woman">女
+                            </li>
+                            <li>
+                                <strong>年龄：</strong>
+                                <input type="number" name="userage">
+                            </li>
+                            <li>
+                                <strong>手机号码：</strong>
+                                <input type="text" name="usertel">
+                            </li>
+                            <li>
+                                <strong>邮箱：</strong>
+                                <input type="text" name="useremail">
+                            </li>
+                            <li>
+                                <strong>身份证号：</strong>
+                                <input type="number" name="useridentity">
+                            </li>
+                            <li>
+                                <strong>家庭住址：</strong>
+                                <input type="text" name="useraddress">
+                            </li>
+                            <li><input type="submit" name="regSubmit" value="注册"></li>
+                            <li><p>已有账号？<a href="javascript:;" id="immelogin">立即登录</a></p></li>
+                        </ul>
+                    </form>
+                </div>
+            </div><!-- registerModule -->
+            <div class="loginBg"></div>
+        </div><!-- header_Right -->
+        <div class="clearfix"></div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="firul">
+                <li><a href="index.html">首页</a></li>
+                <li class="navfir">
+                    <a href="ntch-n.html">服务项目</a>
+                    <ul class="navsec">
+                        <li><a href="ntch-n.html">育婴师</a></li>
+                        <li><a href="ntch-t.html">老人陪护</a></li>
+                        <li><a href="ntch-c.html">保洁员</a></li>
+                        <li><a href="ntch-h.html">小时工</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="ndnNews.html">新闻中心</a>
+                    <ul class="navsec">
+                        <li><a href="ndnNews.html">国家家政网新闻</a></li>
+                        <li><a href="comDynamic.html">公司动态</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="userInfo.html">客户中心</a>
+                    <ul class="navsec">
+                        <li><a href="userInfo.html">个人中心</a></li>
+                        <li><a href="userInfo.html#fbzp">发布招聘</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="ayiInfo.html">阿姨中心</a>
+                    <ul class="navsec">
+                        <li><a href="ayiInfo.html">阿姨简介</a></li>
+                        <li><a href="ayiBlack.html">阿姨黑名单</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="recruitment.html">诚聘阿姨</a>
+                    <ul class="navsec">
+                        <li><a href="recruitment.html">阿姨招聘</a></li>
+                        <li><a href="applyOnline.html">在线应聘</a></li>
+                    </ul>
+                </li>
+                <li class="navfir">
+                    <a href="aboutUS.html">关于我们</a>
+                    <ul class="navsec">
+                        <li><a href="aboutUS.html#qywh">企业文化</a></li>
+                        <li><a href="aboutUS.html#fwln">服务理念</a></li>
+                        <li><a href="aboutUS.html#ryzz">荣誉宗旨</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </nav>
+
+
+    <section class="classfly">
+        <ul>
+            <li><a href="">全部</a></li>
+            <li><a href="">精品住家保姆</a></li>
+            <li><a href="">高级育婴师</a></li>
+            <li><a href="">金牌月嫂</a></li>
+            <li><a href="">儿童家教</a></li>
+            <li><a href="">高端家庭管家</a></li>
+            <li><a href="">家庭司机</a></li>
+            <li><a href="">专业老人护理</a></li>
+            <li><a href="">高端涉外家政</a></li>
+            <li><a href="">早出晚归</a></li>
+            <div class="clearfix"></div>
+        </ul>
+    </section>
+
+    <div class="jibenInfo">
+        <h1>基本信息<i>2017-03-25</i></h1>
+        <div class="floatLeft"><img src="images/talent01.jpg"></div>
+        <div class="floatLeft xinxi">
+            <p>姓名：叶梅花</p>
+            <p>户籍：安徽</p>
+            <p>属相：鸡</p>
+            <p>学历：初中</p>
+            <p>工种：早出晚归</p>
+            <p>经验：25年</p>
+            <p>状态：未聘</p>
+            <p>区域：不限</p>
+            <p>出生：1967-02-22</p>
+            <h5>技能证书：</h5>
+            <div>|身份证|健康证|服务标准|文化礼仪|服务标兵|        </div>
+            <h5>工作经历：</h5>
+            <p>1989年至今一直在俄罗斯，法国，德国，美国家庭做饭保洁带刚出生宝宝</p>
+            <h5>爱好特长：<i>烧饭保洁带宝宝</i></h5>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="jibenInfo">
+        <h1>视频介绍</h1>
+        <div class="floatLeft"><img src="images/talent01.jpg"></div>
+        <div class="floatLeft xinxi">
+            <h5>自我评价：</h5>
+            <p>阿姨烧得一手好菜，做事兢兢业业，井井有条，充分利用时间合理安排，认真做好客户吩咐的每一样工作。善于动脑筋，能根据客户的需求做出口味不同的菜肴，搭配的饭菜营养丰富，色味香具全！目前在从事家政行</p>
+            <p>业里可与她媲美的为数不多，如果您想找人品好、稳定性好的住家阿姨请不要错过！</p>
+            <h5>联系方式：</h5>
+            <p>所属公司：优佳家政服务有限公司<br>联系电话：400-820-6200<br>联系地址：上海市徐汇区斜土路2601号嘉汇广场2号楼10B</p>
+            <a class="immyuyue" href="userInfo.html#fbzp">立刻预约</a>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+
+    <footer>
+        <p>欢迎来到优佳家政服务平台</p>
+    </footer>
+
+    <!-- 动态显示下单框 -->
+    <!-- <div class="userids">
+        <div id="userxd">
+            <a href="#" target="_blank"><img src="images/xd.png" border="0"  style="cursor: pointer;" style="cursor: pointer;" /></a>
+            <script type="text/javascript" src="js/11.js"></script>
+        </div>
+    </div> -->
+    <a href="javascript:;" id="rep">举报</a>
+    <div class="reportModule">
+        <div class="ModuleTitle">
+            <span>用户举报</span>
+            <a href="javascript:;" class="close">X</a>
+        </div>
+        <div class="repForm">
+            <form name="repForm" action="" method="">
+                <ul>
+                    <li><h3>用户举报</h3></li>
+                    <li><p>若是一般问题，请直接在“联系我们”中直接反馈，请慎重举报！</p></li>
+                    <li>
+                        <strong>用户名：</strong>
+                        <input type="text" name="username">
+                    </li>
+                    <li>
+                        <strong>阿姨姓名：</strong>
+                        <input type="text" name="ayiname">
+                    </li>
+                    <li>
+                        <strong>举报原因：</strong>
+                        <textarea name="userjbyy" cols="23" rows="5"></textarea>
+                    </li>
+                    <li><input type="submit" name="repSubmit" value="提交"></li>
+                </ul>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./js/public.js"></script>
+    <script type="text/javascript" src="./js/carousel.js"></script>
+</body>
+</html>
